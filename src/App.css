@@ -1,11 +1,28 @@
 img {
-  max-width: 100px;
+  width: 100%;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
 }
+
 .horned-beast {
   width: 25%;
+}
+
+.selected-beast {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(129, 62, 22, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.selected-beast img {
+  width: 50%;
 }
